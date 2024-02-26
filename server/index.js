@@ -1,4 +1,3 @@
-// app.js
 const express = require('express');
 const mongoose = require('mongoose');
 const playerRoutes = require('./routes/playerRoutes');
@@ -7,11 +6,10 @@ const auctionRoutes = require('./routes/auctionRoutes');
 
 const app = express();
 
-// Middleware
+
 app.use(express.json());
 
-// Database connection
-mongoose.connect('mongodb://localhost:27017/your-database-name', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb://localhost:27017/cricbit', { useNewUrlParser: true, useUnifiedTopology: true });
 
 // Routes
 app.use('/api', playerRoutes);
