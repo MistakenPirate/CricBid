@@ -23,12 +23,11 @@ const DropdownSelector = ({ options, onSelect }) => {
       <label htmlFor="dropdown">Team Name:</label>
 
       <input
-        className="text-blue-900"
         type="text"
         placeholder="Search..."
         value={searchTerm}
         onChange={handleSearchChange}
-        className="p-2 m-2 border"
+        className="p-2 m-2 border text-blue-900"
       />
 
       <select
