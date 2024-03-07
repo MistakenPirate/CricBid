@@ -8,7 +8,7 @@ const TextBoxComponent = () => {
   };
 
   return (
-    <div>
+    <div className='text-blue-200'>
       <label htmlFor="textBox">Bidding Amount:</label>
       <input
         type="text"

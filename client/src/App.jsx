@@ -15,9 +15,14 @@ const App = () => {
     { value: "option3", label: "Option 3" },
   ];
 
-  const handleSelect = (selectedValue) => {
-    console.log(`Selected option: ${selectedValue}`);
-    // You can perform additional actions based on the selected value
+  // const handleSelect = (selectedValue) => {
+  //   console.log(`Selected option: ${selectedValue}`);
+  //   // You can perform additional actions based on the selected value
+  // };
+
+  const handleSelect = (option) => {
+    setSelectedOption(option);
+    // Add any other logic you want to perform when an option is selected
   };
 
   useEffect(() => {
@@ -47,14 +52,15 @@ const App = () => {
   };
 
   return (
-    <div className="bg-blue-900">
+    <div className="bg-blue-900 w-[100vw] h-[100vh]">
       <div className="container m-auto p-4">
         <div className="grid grid-cols-7 gap-8 ">
           {/* Auction Part */}
           <div className="col-span-5">
             <h1 className="text-3xl text-center font-bold mb-4 text-blue-200">
-              Cricket Players Auction
+              IPL Auction
             </h1>
+            <div className="h-[10vh]"></div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               {players.map((player) => (
@@ -68,16 +74,20 @@ const App = () => {
                 </div>
               ))}
             </div>
-            <Card />
+            <div className="flex justify-center">
+              <Card />
+            </div>
+            <div className="h-[10vh]"></div>
             <div className="flex justify-center space-x-[20px]">
               <DropdownSelector options={options} onSelect={handleSelect} />
               <TextBoxComponent />
             </div>
+            <div className="h-[10vh]"></div>
             <Button />
           </div>
 
           {/* Leaderboard */}
-          <div className="col-span-2 bg-blue-400">
+          <div className="col-span-2 bg-blue-400 h-[98vh]">
             <h1 className="text-3xl font-bold mb-4 text-center text-bg-900">
               Leaderboard
             </h1>

@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const DropdownSelector = ({ options, onSelect }) => {
-  const [searchTerm, setSearchTerm] = useState('');
-  const [selectedOption, setSelectedOption] = useState('');
+  const [searchTerm, setSearchTerm] = useState("");
+  const [selectedOption, setSelectedOption] = useState("");
 
   const handleSelectChange = (event) => {
     const selectedValue = event.target.value;
@@ -19,15 +19,18 @@ const DropdownSelector = ({ options, onSelect }) => {
   );
 
   return (
-    <div>
-      <label htmlFor="dropdown">Select or Search an option:</label>
+    <div className="text-blue-200">
+      <label htmlFor="dropdown">Team Name:</label>
+
       <input
+        className="text-blue-900"
         type="text"
         placeholder="Search..."
         value={searchTerm}
         onChange={handleSearchChange}
         className="p-2 m-2 border"
       />
+
       <select
         id="dropdown"
         value={selectedOption}
