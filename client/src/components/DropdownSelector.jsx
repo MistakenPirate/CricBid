@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 const DropdownSelector = ({ options, onSelect }) => {
+
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedOption, setSelectedOption] = useState("");
 
@@ -15,8 +16,10 @@ const DropdownSelector = ({ options, onSelect }) => {
   };
 
   const filteredOptions = options.filter((option) =>
-    option.label.toLowerCase().includes(searchTerm.toLowerCase())
+    option.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
+
+
 
   return (
     <div className="text-blue-200">
@@ -38,8 +41,8 @@ const DropdownSelector = ({ options, onSelect }) => {
       >
         <option value="">Select...</option>
         {filteredOptions.map((option) => (
-          <option key={option.value} value={option.value}>
-            {option.label}
+          <option key={option.budget} value={option.name}>
+            {option.name}
           </option>
         ))}
       </select>

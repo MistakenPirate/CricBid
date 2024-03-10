@@ -1,7 +1,7 @@
 const User = require('../models/User');
 const Player = require('../models/Player');
 
-// Deduct the budget of a user when they buy a player
+//when user buys a player
 exports.buyPlayer = async (req, res) => {
   try {
     const userId = req.params.userId;
@@ -23,8 +23,23 @@ exports.buyPlayer = async (req, res) => {
     }
 
     user.budget -= player.cost;
+    user.points += player.rating; 
+    switch (player.type) {
+      case 'bt':
+        user.bt = true;
+        break;
+      case 'bl':
+        user.bl = true;
+        break;
+      case 'al':
+        user.al = true;
+        break;
+      case 'wk':
+        user.wk = true;
+        break;
+    }
 
-    // Update the user's budget
+    // Update the user's paramters
     const updatedUser = await user.save();
 
     // Set the 'sold' status of the player to true
@@ -39,3 +54,15 @@ exports.buyPlayer = async (req, res) => {
     res.status(500).json({ message: error.message });
   }
 };
+
+exports.getAllUsers = async(req,res)=>{
+  try {
+    const users = await User.find();
+    // console.log(users)
+    res.json(users);
+    
+  } catch (error) { res.status(500).json({message:error.message})
+    
+  }
+}
+
