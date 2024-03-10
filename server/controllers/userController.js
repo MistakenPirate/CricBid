@@ -57,9 +57,28 @@ exports.buyPlayer = async (req, res) => {
 
 exports.getAllUsers = async(req,res)=>{
   try {
+    // const users = await User.find();
     const users = await User.find();
+    
     // console.log(users)
     res.json(users);
+    
+  } catch (error) { res.status(500).json({message:error.message})
+  
+}
+};
+
+exports.getValidUsers = async(req,res)=>{
+  try {
+    const validUsers = await User.find({
+      al: true,
+      bt: true,
+      bl: true,
+      wk: true,
+    });
+    
+    // console.log(validUsers)
+    res.json(validUsers);
     
   } catch (error) { res.status(500).json({message:error.message})
     

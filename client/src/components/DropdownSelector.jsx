@@ -22,7 +22,7 @@ const DropdownSelector = ({ options, onSelect }) => {
 
 
   return (
-    <div className="text-blue-200">
+    <div className="text-blue-200 ">
       <label htmlFor="dropdown">Team Name:</label>
 
       <input
@@ -30,14 +30,14 @@ const DropdownSelector = ({ options, onSelect }) => {
         placeholder="Search..."
         value={searchTerm}
         onChange={handleSearchChange}
-        className="p-2 m-2 border text-blue-900"
+        className="p-2 m-2 border text-blue-900 rounded-md"
       />
 
       <select
         id="dropdown"
         value={selectedOption}
         onChange={handleSelectChange}
-        className="p-2 m-2 border"
+        className="p-2 m-2 border rounded-md"
       >
         <option value="">Select...</option>
         {filteredOptions.map((option) => (

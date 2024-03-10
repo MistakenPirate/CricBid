@@ -2,12 +2,10 @@ import React, { useState,useEffect } from "react";
 import PlayerContext from "./PlayerContext";
 
 const PlayerContextProvider = ({ children }) => {
-  // const user = useContext(PlayerContext);
-
-//   const id = "";
   const [id,setId] = useState("65e99edb0bf727db92595f27")
   const [player, setPlayer] = useState({});
   const [active, setActive] = useState("");
+  const [userData, setUserData] = useState({});
 
   useEffect(() => {
     const fetchPlayer = async () => {
@@ -25,8 +23,24 @@ const PlayerContextProvider = ({ children }) => {
         console.error("Error fetching players:", error);
       }
     };
-
+    
+    const fetchUserData = async () => {
+      try {
+        const userResponse = await fetch(`http://localhost:3000/api/getValidUsers`);
+        if (!userResponse.ok) {
+          throw new Error("Network response was not ok");
+        }
+  
+        const userData = await userResponse.json();
+        // console.log(userData);
+        setUserData(userData);
+      } catch (error) {
+        console.error("Error fetching user data:", error);
+      }
+    };
+  
     fetchPlayer();
+    fetchUserData();
   }, []);
 
   const isRadioActive = (value) => {
@@ -34,7 +48,7 @@ const PlayerContextProvider = ({ children }) => {
   };
 
   return (
-    <PlayerContext.Provider value={{ player, setPlayer, isRadioActive }}>
+    <PlayerContext.Provider value={{ player, setPlayer, isRadioActive,userData}}>
       {children}
     </PlayerContext.Provider>
   );
