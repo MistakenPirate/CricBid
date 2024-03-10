@@ -1,39 +1,43 @@
-import React ,{useState,useEffect} from "react";
+import React ,{useState,useEffect,useContext} from "react";
 // import { Context } from "../App";
+import PlayerContext from "../context/PlayerContext";
 
-export default function App(propID) {
+export default function App() {
 
-  const [player, setPlayer] = useState({});
-  const [active ,setActive]=useState("");
-  const {id} = propID;
+  // const [player, setPlayer] = useState({});
+  // const [active ,setActive]=useState("");
+  // const {id} = propID;
+  
 
-  useEffect(() => {
-    const fetchPlayer = async () => {
-      try {
-        const response = await fetch(`http://localhost:3000/api/players/${id}`);
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
+  // useEffect(() => {
+  //   const fetchPlayer = async () => {
+  //     try {
+  //       const response = await fetch(`http://localhost:3000/api/players/${id}`);
+  //       if (!response.ok) {
+  //         throw new Error('Network response was not ok');
+  //       }
 
-        const data = await response.json();
-        setPlayer(data);
-        // console.log(data);
-        setActive(data.type)
-      }
-      catch (error) {
-        console.error('Error fetching players:', error);
-      }
-    };
+  //       const data = await response.json();
+  //       setPlayer(data);
+  //       // console.log(data);
+  //       setActive(data.type)
+  //     }
+  //     catch (error) {
+  //       console.error('Error fetching players:', error);
+  //     }
+  //   };
 
-    fetchPlayer();
-  }, []);
+  //   fetchPlayer();
+  // }, []);
 
-  const isRadioActive = (value) => {
-    // console.log(active)
-    // console.log(value)
-    // console.log(active.trim().toLowerCase() === value.trim().toLowerCase())
-    return active.trim().toLowerCase() === value.trim().toLowerCase();
-  };
+  // const isRadioActive = (value) => {
+  //   // console.log(active)
+  //   // console.log(value)
+  //   // console.log(active.trim().toLowerCase() === value.trim().toLowerCase())
+  //   return active.trim().toLowerCase() === value.trim().toLowerCase();
+  // };
+
+    const {player,isRadioActive} = useContext(PlayerContext)
 
   return (
     <div className="flex justify-center font-sans shadow-lg m-8 bg-blue-400 w-[40vw]">
