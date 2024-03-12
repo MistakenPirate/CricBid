@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
-const DropdownSelector = ({ options, onSelect }) => {
+const DropdownSelector = ({ options, onSelect,selectedOption, setSelectedOption}) => {
 
   const [searchTerm, setSearchTerm] = useState("");
-  const [selectedOption, setSelectedOption] = useState("");
+  // const [selectedOption, setSelectedOption] = useState("");
 
   const handleSelectChange = (event) => {
     const selectedValue = event.target.value;

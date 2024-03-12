@@ -8,18 +8,20 @@ exports.buyPlayer = async (req, res) => {
     // console.log(req.body)
     const userId = req.body.userId;
     const playerId = req.body.playerId;
+    const cost = req.body.cost;
     // const playerId = req.params.id;
 
 
-    const user = await User.findById(userId);
+    // const user = await User.findById(userId);
+    const user = await User.findOne({ name: userId });
     const player = await Player.findOne({ sequence: playerId });
     // const player = await Player.findById(playerId);
     // const user = await User.findById('65f02ad32582a985b0485219');
     // const player = await Player.findById('65f02aee2582a985b048521a');
 
-    if (!mongoose.Types.ObjectId.isValid(userId)){
-      return res.status(400).json({ message: 'Invalid user or player ID' });
-    }
+    // if (!mongoose.Types.ObjectId.isValid(userId)){
+    //   return res.status(400).json({ message: 'Invalid user or player ID' });
+    // }
     // if (!mongoose.Types.ObjectId.isValid(userId) || !mongoose.Types.ObjectId.isValid(playerId)) {
     //   return res.status(400).json({ message: 'Invalid user or player ID' });
     // }
@@ -32,11 +34,11 @@ exports.buyPlayer = async (req, res) => {
       return res.status(400).json({ message: 'Player is already sold' });
     }
 
-    if (user.budget < player.cost) {
+    if (user.budget < cost) {
       return res.status(400).json({ message: 'Insufficient budget to buy the player' });
     }
 
-    user.budget -= player.cost;
+    user.budget -= cost;
     user.points += player.rating; 
     switch (player.type) {
       case 'bt':

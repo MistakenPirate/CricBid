@@ -1,13 +1,13 @@
 import React, { useState, useContext } from 'react';
 import PlayerContext from '../context/PlayerContext';
 
-const TextBoxComponent = () => {
-  const [inputValue, setInputValue] = useState('');
+const TextBoxComponent = ({PlayerFinalCost, setPlayerFinalCost}) => {
+  // const [PlayerFinalCost, setPlayerFinalCost] = useState('');
   const {player} = useContext(PlayerContext)
   // const {userData} = useContext(PlayerContext)
   // console.log(userData)
   const handleInputChange = (event) => {
-    setInputValue(event.target.value);
+    setPlayerFinalCost(event.target.value);
   };
 
   return (
@@ -17,12 +17,12 @@ const TextBoxComponent = () => {
         type="text"
         id="textBox"
         placeholder={player.cost}
-        value={inputValue}
+        value={PlayerFinalCost}
         onChange={handleInputChange}
         className="p-2 m-2 border rounded-md"
       />
 
-      {inputValue && <p>Your Team: {inputValue}</p>}
+      {PlayerFinalCost && <p>Your Team: {PlayerFinalCost}</p>}
     </div>
   );
 };

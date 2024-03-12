@@ -1,27 +1,56 @@
-import React from "react";
+import React, { useContext } from "react";
+import PlayerContext from "../context/PlayerContext";
 
-const Button = () => {
+// const Button = (userId,setUserId) => {
+const Button = ({ PlayerFinalCost, selectedOption }) => {
+  const { seq, handleSell } = useContext(PlayerContext);
 
-
+  // postData = {
+  //   userId: selectedOption,
+  //   playerId: seq,
+  //   cost: PlayerFinalCost,
+  // };
   const handlePostRequest = async () => {
     try {
+      // const response = await fetch("https://localhost:3000/api/buyPlayer", {
+      //   method: "POST",
+      //   // body: {
+      //   //   userId: selectedOption,
+      //   //   playerId: seq,
+      //   //   cost: PlayerFinalCost,
+      //   // },
+      //   headers: {
+      //     "Content-type": "application/json; charset=UTF-8",
+      //   },
+      //   body: JSON.stringify({
+      //     userId: selectedOption,
+      //     playerId: seq,
+      //     cost: PlayerFinalCost,
+      //   }),
+      // });
+
       const response = await fetch("https://localhost:3000/api/buyPlayer", {
         method: "POST",
         headers: {
-          "userId": "",
-          "playerSeq": "application/json"
+          "Content-type": "application/json; charset=UTF-8",
         },
-        body: JSON.stringify(postData),
+        body: JSON.stringify({
+          userId: selectedOption,
+          playerId: seq,
+          cost: PlayerFinalCost,
+        }),
       });
 
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
 
+      handleSell();
+
       const data = await response.json();
       console.log("POST request successful:", data);
     } catch (error) {
-      console.error("Error during POST request:", error);
+      console.error("Error during POST request ", error);
     }
   };
 
@@ -32,7 +61,7 @@ const Button = () => {
       bg-blue-400
       text-white rounded p-2 mx-auto mt-4
       hover:bg-indigo-400 text-3xl shadow-2xl"
-        // onClick={handlePostRequest}
+        onClick={handlePostRequest}
       >
         SELL
       </button>
