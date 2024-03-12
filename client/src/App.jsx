@@ -37,6 +37,10 @@ const App = () => {
     setSelectedOption(option);
   };
 
+  // useEffect(() => {
+  //   // Any logic dependent on seq can go here
+  // }, [seq]); 
+
   return (
     <div className="bg-blue-900 w-[100vw] h-[100vh] overflow-y-hidden">
       <div className="container m-auto p-4">

@@ -10,26 +10,29 @@ const Button = ({ PlayerFinalCost, selectedOption }) => {
   //   playerId: seq,
   //   cost: PlayerFinalCost,
   // };
+
+  // const options = {
+  //   method: "POST",
+  //   headers: {
+  //     "Content-type": "application/json; charset=UTF-8",
+  //   },
+  //   body: JSON.stringify({
+  //     userId: selectedOption,
+  //     playerId: seq,
+  //     cost: PlayerFinalCost,
+  //     // userId: 'team',
+  //     // playerId: 1,
+  //     // cost: 50000,
+  //   }),
+  // }
+
+  
+
   const handlePostRequest = async () => {
     try {
-      // const response = await fetch("https://localhost:3000/api/buyPlayer", {
-      //   method: "POST",
-      //   // body: {
-      //   //   userId: selectedOption,
-      //   //   playerId: seq,
-      //   //   cost: PlayerFinalCost,
-      //   // },
-      //   headers: {
-      //     "Content-type": "application/json; charset=UTF-8",
-      //   },
-      //   body: JSON.stringify({
-      //     userId: selectedOption,
-      //     playerId: seq,
-      //     cost: PlayerFinalCost,
-      //   }),
-      // });
+      // const response = await fetch("https://localhost:3000/api/buyPlayer",options );
 
-      const response = await fetch("https://localhost:3000/api/buyPlayer", {
+      const response = await fetch("http://localhost:3000/api/buyPlayer", {
         method: "POST",
         headers: {
           "Content-type": "application/json; charset=UTF-8",
@@ -50,7 +53,7 @@ const Button = ({ PlayerFinalCost, selectedOption }) => {
       const data = await response.json();
       console.log("POST request successful:", data);
     } catch (error) {
-      console.error("Error during POST request ", error);
+      console.error("Error during POST request ", error.message);
     }
   };
 
