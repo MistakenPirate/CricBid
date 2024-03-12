@@ -4,6 +4,8 @@ import PlayerContext from '../context/PlayerContext';
 const TextBoxComponent = () => {
   const [inputValue, setInputValue] = useState('');
   const {player} = useContext(PlayerContext)
+  // const {userData} = useContext(PlayerContext)
+  // console.log(userData)
   const handleInputChange = (event) => {
     setInputValue(event.target.value);
   };

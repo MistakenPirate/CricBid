@@ -1,11 +1,10 @@
 import React, { useState, useEffect,useContext } from "react";
 import Card from "./components/Card";
 import Button from "./components/Button";
+import PlayerList from "./components/PlayerList";
 import DropdownSelector from "./components/DropdownSelector";
 import TextBoxComponent from "./components/TextBoxComponent";
-import PlayerList from "./components/PlayerList";
-import PlayerContextProvider from "./context/PlayerContextProvider";
-import PlayerContext from "./context/PlayerContext";
+// import PlayerContext from "./context/PlayerContext";
 
 
 const App = () => {
@@ -42,7 +41,7 @@ const App = () => {
 
 
   return (
-    <PlayerContextProvider>
+    // <PlayerContextProvider>
       <div className="bg-blue-900 w-[100vw] h-[100vh] overflow-y-hidden">
         <div className="container m-auto p-4">
           <div className="grid grid-cols-7 gap-8 ">
@@ -71,11 +70,11 @@ const App = () => {
                 Leaderboard
               </h1>
 
-              {/* <PlayerList /> */}
+              <PlayerList />
 
                {/* <ul>
               {userData.map((user, index) => (
-                <li key={user.points} className="mb-2 ml-4">
+                <li key={user.name} className="text-xl mb-2 ml-4">
                   {index + 1}. {user.name} - Points: {user.points}
                 </li>
               ))} 
@@ -84,7 +83,7 @@ const App = () => {
           </div>
         </div>
       </div>
-    </PlayerContextProvider>
+    // </PlayerContextProvider>
   );
 };
 

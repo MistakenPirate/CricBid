@@ -1,34 +1,37 @@
-import React, { useState, useEffect } from 'react';
+import React, { useContext } from "react";
+import PlayerContext from "../context/PlayerContext";
 
 const PlayerList = () => {
-  const [players, setPlayers] = useState([]);
+  const { userData } = useContext(PlayerContext);
+  // let sortedUserData = [];
+  // if(userData.length){
+  // }
+  // const sortedUserData = userData.length?(userData.sort((a, b) => a.point - b.point)):("") ;
 
-  useEffect(() => {
-    const fetchPlayers = async () => {
-      try {
-        const response = await fetch('http://localhost:3000/api/players');
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
+  const userList = userData.length ? (
+    userData.map((user) => (
+      <li key={user.name}>
+        {user.name} - {user.points} points
+      </li>
+    ))
+  ) : (
+    <li>No users available</li>
+  );
 
-        const data = await response.json();
-        setPlayers(data);
-        // console.log(players)
-      } catch (error) {
-        console.error('Error fetching players:', error);
-      }
-    };
-
-    fetchPlayers();
-  }, []);
+  // const sortedUserList = sortedUserData.length ? (
+  //   sortedUserData.map((user) => (
+  //     <li key={user.name}>
+  //       {user.name} - {user.points} points
+  //     </li>
+  //   ))
+  // ) : (
+  //   <li>No users available</li>
+  // );
 
   return (
-    <div>
-      <ul>
-        {players.map((player) => (
-          <li key={player._id}>{player.name}</li>
-        ))}
-      </ul>
+    <div className="flex justify-center">
+      <ul>{userList}</ul>
+      {/* <ul>{sortedUserList}</ul> */}
     </div>
   );
 };

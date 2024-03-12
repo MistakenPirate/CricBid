@@ -1,14 +1,28 @@
 const User = require('../models/User');
 const Player = require('../models/Player');
+const mongoose = require('mongoose')
 
 //when user buys a player
 exports.buyPlayer = async (req, res) => {
   try {
-    const userId = req.params.userId;
-    const playerId = req.params.playerId;
+    // console.log(req.body)
+    const userId = req.body.userId;
+    const playerId = req.body.playerId;
+    // const playerId = req.params.id;
+
 
     const user = await User.findById(userId);
-    const player = await Player.findById(playerId);
+    const player = await Player.findOne({ sequence: playerId });
+    // const player = await Player.findById(playerId);
+    // const user = await User.findById('65f02ad32582a985b0485219');
+    // const player = await Player.findById('65f02aee2582a985b048521a');
+
+    if (!mongoose.Types.ObjectId.isValid(userId)){
+      return res.status(400).json({ message: 'Invalid user or player ID' });
+    }
+    // if (!mongoose.Types.ObjectId.isValid(userId) || !mongoose.Types.ObjectId.isValid(playerId)) {
+    //   return res.status(400).json({ message: 'Invalid user or player ID' });
+    // }
 
     if (!user || !player) {
       return res.status(404).json({ message: 'User or player not found' });
@@ -43,10 +57,15 @@ exports.buyPlayer = async (req, res) => {
     const updatedUser = await user.save();
 
     // Set the 'sold' status of the player to true
-    const updatedPlayer = await Player.findByIdAndUpdate(
-      playerId,
+    // const updatedPlayer = await Player.findByIdAndUpdate(
+    //   playerId,
+    //   { sold: true },
+    //   { new: true }
+    // );
+    const updatedPlayer = await Player.findOneAndUpdate(
+      { sequence: playerId },
       { sold: true },
-      { new: true }
+      { new: true, runValidators: true }
     );
 
     res.json({ user: updatedUser, player: updatedPlayer });
@@ -57,10 +76,7 @@ exports.buyPlayer = async (req, res) => {
 
 exports.getAllUsers = async(req,res)=>{
   try {
-    // const users = await User.find();
     const users = await User.find();
-    
-    // console.log(users)
     res.json(users);
     
   } catch (error) { res.status(500).json({message:error.message})
@@ -76,8 +92,6 @@ exports.getValidUsers = async(req,res)=>{
       bl: true,
       wk: true,
     });
-    
-    // console.log(validUsers)
     res.json(validUsers);
     
   } catch (error) { res.status(500).json({message:error.message})

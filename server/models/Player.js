@@ -10,6 +10,7 @@ const playerSchema = new mongoose.Schema({
     default:false,
   },
   imageURL: String,
+  sequence: Number,
 });
 
 module.exports = mongoose.model('Player', playerSchema);

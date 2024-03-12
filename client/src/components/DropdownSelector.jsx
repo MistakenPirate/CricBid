@@ -41,7 +41,7 @@ const DropdownSelector = ({ options, onSelect }) => {
       >
         <option value="">Select...</option>
         {filteredOptions.map((option) => (
-          <option key={option.budget} value={option.name}>
+          <option key={option.name} value={option.name}>
             {option.name}
           </option>
         ))}
