@@ -11,7 +11,7 @@ export default function App() {
         <img
           src={player.imageURL}
           alt=""
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute inset-0 w-full h-full rounded-3xl object-cover"
           loading="lazy"
         />
       </div>

@@ -5,6 +5,7 @@ import PlayerContext from "../context/PlayerContext";
 const Button = ({ PlayerFinalCost, selectedOption }) => {
   const { seq, setSeq } = useContext(PlayerContext);
   const [postData, setPostData] = useState("");
+  const [updateButton, setUpdateButton] = useState(false); 
   // console.log(PlayerFinalCost)
   // console.log(selectedOption)
   // postData = {
@@ -45,9 +46,12 @@ const Button = ({ PlayerFinalCost, selectedOption }) => {
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
-      setSeq(seq + 1);
+      // setSeq(seq + 1);
+      setSeq(prevSeq => prevSeq + 1);
       const data = await response.json();
       console.log("POST request successful:", data);
+      setUpdateButton(!updateButton); 
+      // setPostData(Date.now());
     } catch (error) {
       console.error("Error during POST request ", error.message);
     }
@@ -67,7 +71,7 @@ const Button = ({ PlayerFinalCost, selectedOption }) => {
       bg-blue-400
       text-white rounded p-2 mx-auto mt-4
       hover:bg-indigo-400 text-3xl shadow-2xl"
-        onClick={() => setPostData(1)}
+        onClick={() => setPostData(Date.now())}
       >
         SELL
       </button>
