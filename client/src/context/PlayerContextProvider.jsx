@@ -26,7 +26,7 @@ const PlayerContextProvider = ({ children }) => {
   
     fetchPlayer();
 
-  }, []);
+  }, [seq]);
 
 
   const handleSell = () => {
@@ -50,14 +50,14 @@ const PlayerContextProvider = ({ children }) => {
     };
   
     fetchUserData();
-  }, []);
+  }, [userData]);
 
   const isRadioActive = (value) => {
     return active.trim().toLowerCase() === value.trim().toLowerCase();
   };
 
   return (
-    <PlayerContext.Provider value={{ player, setPlayer, isRadioActive,userData,seq,handleSell}}>
+    <PlayerContext.Provider value={{ player, setPlayer, isRadioActive,userData,seq,setSeq,handleSell}}>
       {children}
     </PlayerContext.Provider>
   );

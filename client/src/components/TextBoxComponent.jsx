@@ -21,7 +21,7 @@ const TextBoxComponent = ({PlayerFinalCost, setPlayerFinalCost}) => {
         onChange={handleInputChange}
         className="p-2 m-2 border rounded-md"
       />
-
+      {/* {console.log(PlayerFinalCost)} */}
       {PlayerFinalCost && <p>Your Team: {PlayerFinalCost}</p>}
     </div>
   );

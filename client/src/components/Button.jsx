@@ -1,10 +1,12 @@
-import React, { useContext } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import PlayerContext from "../context/PlayerContext";
 
 // const Button = (userId,setUserId) => {
 const Button = ({ PlayerFinalCost, selectedOption }) => {
-  const { seq, handleSell } = useContext(PlayerContext);
-
+  const { seq, setSeq } = useContext(PlayerContext);
+  const [postData, setPostData] = useState("");
+  // console.log(PlayerFinalCost)
+  // console.log(selectedOption)
   // postData = {
   //   userId: selectedOption,
   //   playerId: seq,
@@ -26,12 +28,8 @@ const Button = ({ PlayerFinalCost, selectedOption }) => {
   //   }),
   // }
 
-  
-
   const handlePostRequest = async () => {
     try {
-      // const response = await fetch("https://localhost:3000/api/buyPlayer",options );
-
       const response = await fetch("http://localhost:3000/api/buyPlayer", {
         method: "POST",
         headers: {
@@ -47,9 +45,7 @@ const Button = ({ PlayerFinalCost, selectedOption }) => {
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
-
-      handleSell();
-
+      setSeq(seq + 1);
       const data = await response.json();
       console.log("POST request successful:", data);
     } catch (error) {
@@ -57,6 +53,13 @@ const Button = ({ PlayerFinalCost, selectedOption }) => {
     }
   };
 
+  useEffect(() => {
+    if (postData) {
+      handlePostRequest();
+    }
+  }, [postData]);
+
+  // const handleOnClock = ()=> setPostData(1)
   return (
     <div className="flex justify-center">
       <button
@@ -64,7 +67,7 @@ const Button = ({ PlayerFinalCost, selectedOption }) => {
       bg-blue-400
       text-white rounded p-2 mx-auto mt-4
       hover:bg-indigo-400 text-3xl shadow-2xl"
-        onClick={handlePostRequest}
+        onClick={() => setPostData(1)}
       >
         SELL
       </button>

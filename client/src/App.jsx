@@ -14,7 +14,7 @@ const App = () => {
   //Selection option of the user (User.name)
   const [selectedOption, setSelectedOption] = useState("");
   //Selection of player (Player.sequence) can be done from state
-
+  
   useEffect(() => {
     const fetchOptions = async () => {
       try {
@@ -40,7 +40,7 @@ const App = () => {
   // useEffect(() => {
   //   // Any logic dependent on seq can go here
   // }, [seq]); 
-
+  // console.log(PlayerFinalCost)
   return (
     <div className="bg-blue-900 w-[100vw] h-[100vh] overflow-y-hidden">
       <div className="container m-auto p-4">
