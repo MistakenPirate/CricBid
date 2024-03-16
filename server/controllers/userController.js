@@ -27,7 +27,7 @@ exports.buyPlayer = async (req, res) => {
     // }
 
     if (!user || !player) {
-      return res.status(404).json({ message: 'User or player not found' });
+      return res.status(404).json({ message: 'Select a Team' });
     }
 
     if (player.sold) {

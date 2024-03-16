@@ -1,33 +1,9 @@
 import React, { useContext, useState, useEffect } from "react";
 import PlayerContext from "../context/PlayerContext";
 
-// const Button = (userId,setUserId) => {
 const Button = ({ PlayerFinalCost, selectedOption }) => {
   const { seq, setSeq } = useContext(PlayerContext);
-  const [postData, setPostData] = useState("");
-  const [updateButton, setUpdateButton] = useState(false); 
-  // console.log(PlayerFinalCost)
-  // console.log(selectedOption)
-  // postData = {
-  //   userId: selectedOption,
-  //   playerId: seq,
-  //   cost: PlayerFinalCost,
-  // };
-
-  // const options = {
-  //   method: "POST",
-  //   headers: {
-  //     "Content-type": "application/json; charset=UTF-8",
-  //   },
-  //   body: JSON.stringify({
-  //     userId: selectedOption,
-  //     playerId: seq,
-  //     cost: PlayerFinalCost,
-  //     // userId: 'team',
-  //     // playerId: 1,
-  //     // cost: 50000,
-  //   }),
-  // }
+  const [errorMessage, setErrorMessage] = useState("");
 
   const handlePostRequest = async () => {
     try {
@@ -44,37 +20,43 @@ const Button = ({ PlayerFinalCost, selectedOption }) => {
       });
 
       if (!response.ok) {
-        throw new Error("Network response was not ok");
+        console.error("Network response was not ok");
       }
-      // setSeq(seq + 1);
-      setSeq(prevSeq => prevSeq + 1);
+
       const data = await response.json();
-      console.log("POST request successful:", data);
-      setUpdateButton(!updateButton); 
-      // setPostData(Date.now());
+
+      if (data.message) {
+        setErrorMessage(data.message);
+
+        // Set a timeout to clear the error message after 5 seconds
+        setTimeout(() => {
+          setErrorMessage("");
+        }, 3000);
+      } else {
+        console.log("POST request successful:", data);
+        setSeq((prevSeq) => prevSeq + 1);
+      }
     } catch (error) {
       console.error("Error during POST request ", error.message);
     }
   };
 
-  useEffect(() => {
-    if (postData) {
-      handlePostRequest();
-    }
-  }, [postData]);
+  const handleClick = () => {
+    setErrorMessage(""); // Reset error message before making the request
+    handlePostRequest();
+  };
 
-  // const handleOnClock = ()=> setPostData(1)
   return (
-    <div className="flex justify-center">
-      <button
-        className="font-sans
-      bg-blue-400
-      text-white rounded p-2 mx-auto mt-4
-      hover:bg-indigo-400 text-3xl shadow-2xl"
-        onClick={() => setPostData(Date.now())}
-      >
-        SELL
-      </button>
+    <div className="flex flex-col items-center justify-center">
+      <div>
+        <button
+          className="font-sans bg-blue-400 text-white rounded p-2 mx-auto mt-4 hover:bg-indigo-400 text-3xl shadow-2xl"
+          onClick={handleClick}
+        >
+          SELL
+        </button>
+      </div>
+        {errorMessage && <p className="text-blue-200 mt-2 hover:text-red-500">{errorMessage}</p>}
     </div>
   );
 };
