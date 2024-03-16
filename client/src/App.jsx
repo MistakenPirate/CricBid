@@ -1,11 +1,10 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useState, useEffect } from "react";
 import Card from "./components/Card";
 import Button from "./components/Button";
 import PlayerList from "./components/PlayerList";
 import DropdownSelector from "./components/DropdownSelector";
 import TextBoxComponent from "./components/TextBoxComponent";
-import PlayerContext from "./context/PlayerContext";
-// import PlayerContext from "./context/PlayerContext";
+
 
 const App = () => {
   const [options, setOptions] = useState([]);
@@ -47,15 +46,18 @@ const App = () => {
         <div className="grid grid-cols-7 gap-8 ">
           {/* Auction Part */}
           <div className="col-span-5">
-            <h1 className="text-3xl text-center font-bold text-blue-200">
-              IPL Auction
-            </h1>
-            <div className="h-[10vh]"></div>
+            {/* <h1 className="text-3xl text-center font-bold text-blue-200 flex justify-center">
+              CRICBID */}
+             
+            {/* </h1> */}
+            <div className="flex justify-center">
+            <img className="h-[15vh] " src="logo1.png"></img>
+            </div>
 
             <div className="flex justify-center">
               <Card />
             </div>
-            <div className="h-[10vh]"></div>
+            <div className="h-[6vh]"></div>
             <div className="flex justify-center space-x-[20px]">
               <DropdownSelector
                 options={options}
@@ -68,18 +70,22 @@ const App = () => {
                 setPlayerFinalCost={setPlayerFinalCost}
               />
             </div>
-            <div className="h-[10vh]"></div>
+            <div className="h-[6vh]"></div>
             <Button
               PlayerFinalCost={PlayerFinalCost}
               selectedOption={selectedOption}
             />
+           
           </div>
 
           {/* Leaderboard */}
           <div className="col-span-2 bg-blue-400 h-[98vh] rounded-xl">
-            <h1 className="text-3xl font-bold my-5 text-center text-bg-900">
+            {/* <h1 className="text-3xl font-bold my-5 text-center text-bg-900">
               Leaderboard
-            </h1>
+            </h1> */}
+            <div className="flex justify-center">
+            <img className="h-[15vh] " src="logo0.png"></img>
+            </div>
 
             <PlayerList />
           </div>
