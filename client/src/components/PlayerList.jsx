@@ -11,7 +11,7 @@ const PlayerList = () => {
   const userList = userData.length ? (
     userData.map((user) => (
       <li key={user.name}>
-        {user.name} - {user.points} points
+        {user.name} - {user.points.toFixed(1)} points
       </li>
     ))
   ) : (
