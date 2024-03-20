@@ -4,6 +4,7 @@ import PlayerContext from "./PlayerContext";
 const PlayerContextProvider = ({ children }) => {
   const [seq,setSeq] = useState(1)
   const [player, setPlayer] = useState({});
+  const [players, setPlayers] = useState([]);
   const [active, setActive] = useState("");
   const [userData, setUserData] = useState({});
 
@@ -27,6 +28,27 @@ const PlayerContextProvider = ({ children }) => {
     fetchPlayer();
 
   }, [seq]);
+
+  useEffect(() => {
+    const fetchPlayers = async () => {
+      try {
+        const response = await fetch(`http://localhost:3000/api/players`);
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+
+        const data = await response.json();
+        setPlayers(data);
+        // console.log(data);
+      } catch (error) {
+        console.error("Error fetching players:", error);
+      }
+    };
+  
+    fetchPlayers();
+
+  }, [players]);
+  // console.log(players)
 
 
   const handleSell = () => {
@@ -57,7 +79,7 @@ const PlayerContextProvider = ({ children }) => {
   };
 
   return (
-    <PlayerContext.Provider value={{ player, setPlayer, isRadioActive,userData,seq,setSeq,handleSell}}>
+    <PlayerContext.Provider value={{ player,players, setPlayer, isRadioActive,userData,seq,setSeq,handleSell}}>
       {children}
     </PlayerContext.Provider>
   );

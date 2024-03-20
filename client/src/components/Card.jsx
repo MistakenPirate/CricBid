@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from "react";
 import PlayerContext from "../context/PlayerContext";
 
 export default function App() {
-  const { player, isRadioActive, seq, setSeq } = useContext(PlayerContext);
+  const { player,players, isRadioActive, seq, setSeq } = useContext(PlayerContext);
   // Remove the 'button' state
   // const [button, setButton] = useState("");
 
@@ -13,6 +13,19 @@ export default function App() {
 
   const handleNext = () => {
     setSeq(prevSeq => prevSeq + 1); // Use callback version of setSeq
+  };
+// console.log(players)
+  const handleFirstUnsoldPlayer = () => {
+    let nextSeq = 1;
+    while (nextSeq <= players.length) {
+      const nextPlayer = players[nextSeq - 1];
+      console.log(nextPlayer.sold)
+      if (!nextPlayer.sold) {
+        setSeq(() => nextSeq); // Use callback version of setSeq
+        break;
+      }
+      nextSeq++;
+    }
   };
 
   useEffect(() => {
@@ -58,6 +71,12 @@ export default function App() {
             onClick={handleNext} // Update seq for next player
           >
             Next
+          </button>
+          <button
+            className="font-sans bg-blue-900 text-white rounded p-2 mx-auto mt-4 hover:bg-blue-700 text-md shadow-md"
+            onClick={handleFirstUnsoldPlayer} // Update seq for next player
+          >
+            Unsold
           </button>
         </div>
       </div>
