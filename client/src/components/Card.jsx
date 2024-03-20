@@ -19,6 +19,7 @@ export default function App() {
     // You can add any additional logic here if needed
   }, [seq]);
 
+  // console.log(player.imageURL)
   return (
     <div className="flex justify-center font-sans shadow-lg m-8 rounded-3xl bg-blue-400 w-[40vw]">
       <div className="flex-none w-48 relative">
