@@ -1,0 +1,1991 @@
+[
+  {
+    "sequence": 1,
+    "name": "Evin Lewis \u2708",
+    "cost": 7,
+    "rating": 8.2,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "evin_lewis__.jpg"
+  },
+  {
+    "sequence": 2,
+    "name": "Sunil Narine \u2708",
+    "cost": 9,
+    "rating": 9.3,
+    "type": "al",
+    "sold": false,
+    "imageURL": "sunil_narine__.jpg"
+  },
+  {
+    "sequence": 3,
+    "name": "Varun Chakaravarthy",
+    "cost": 7,
+    "rating": 8.0,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "varun_chakaravarthy.jpg"
+  },
+  {
+    "sequence": 4,
+    "name": "Dhruv Jurel",
+    "cost": 7,
+    "rating": 8.4,
+    "type": "wk",
+    "sold": false,
+    "imageURL": "dhruv_jurel.jpg"
+  },
+  {
+    "sequence": 5,
+    "name": "Paul Stirling \u2708",
+    "cost": 6,
+    "rating": 7.6,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "paul_stirling__.jpg"
+  },
+  {
+    "sequence": 6,
+    "name": "Shahbaz Nadeem",
+    "cost": 6,
+    "rating": 8.0,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "shahbaz_nadeem.jpg"
+  },
+  {
+    "sequence": 7,
+    "name": "Reeza Hendricks \u2708",
+    "cost": 6,
+    "rating": 7.6,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "reeza_hendricks__.jpg"
+  },
+  {
+    "sequence": 8,
+    "name": "Karn Sharma",
+    "cost": 7,
+    "rating": 7.8,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "karn_sharma.jpg"
+  },
+  {
+    "sequence": 9,
+    "name": " Virat Kohli",
+    "cost": 10,
+    "rating": 9.7,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "_virat_kohli.jpg"
+  },
+  {
+    "sequence": 10,
+    "name": "Ish Sodhi \u2708",
+    "cost": 7,
+    "rating": 8.0,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "ish_sodhi__.jpg"
+  },
+  {
+    "sequence": 11,
+    "name": "Shikhar Dhawan",
+    "cost": 9,
+    "rating": 8.7,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "shikhar_dhawan.jpg"
+  },
+  {
+    "sequence": 12,
+    "name": "Dinesh Karthik",
+    "cost": 7,
+    "rating": 8.3,
+    "type": "wk",
+    "sold": false,
+    "imageURL": "dinesh_karthik.jpg"
+  },
+  {
+    "sequence": 13,
+    "name": "Keiron Pollard \u2708",
+    "cost": 9,
+    "rating": 8.9,
+    "type": "al",
+    "sold": false,
+    "imageURL": "keiron_pollard__.jpg"
+  },
+  {
+    "sequence": 14,
+    "name": "Rahmanullah Gurbaz \u2708",
+    "cost": 5,
+    "rating": 8.1,
+    "type": "wk",
+    "sold": false,
+    "imageURL": "rahmanullah_gurbaz__.jpg"
+  },
+  {
+    "sequence": 15,
+    "name": "Venkatesh Iyer",
+    "cost": 6,
+    "rating": 8.0,
+    "type": "al",
+    "sold": false,
+    "imageURL": "venkatesh_iyer.jpg"
+  },
+  {
+    "sequence": 16,
+    "name": "Adam Zampa \u2708",
+    "cost": 8,
+    "rating": 8.7,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "adam_zampa__.jpg"
+  },
+  {
+    "sequence": 17,
+    "name": "Tymal Mills \u2708",
+    "cost": 7,
+    "rating": 8.0,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "tymal_mills__.jpg"
+  },
+  {
+    "sequence": 18,
+    "name": "Chris Green \u2708",
+    "cost": 5,
+    "rating": 8.0,
+    "type": "al",
+    "sold": false,
+    "imageURL": "chris_green__.jpg"
+  },
+  {
+    "sequence": 19,
+    "name": "Yash Dhull",
+    "cost": 5,
+    "rating": 6.9,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "yash_dhull.jpg"
+  },
+  {
+    "sequence": 20,
+    "name": "Ravi Bishnoi",
+    "cost": 7,
+    "rating": 8.6,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "ravi_bishnoi.jpg"
+  },
+  {
+    "sequence": 21,
+    "name": "Michael Bracewell \u2708",
+    "cost": 6,
+    "rating": 8.1,
+    "type": "al",
+    "sold": false,
+    "imageURL": "michael_bracewell__.jpg"
+  },
+  {
+    "sequence": 22,
+    "name": "Trent Boult \u2708",
+    "cost": 9,
+    "rating": 9.2,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "trent_boult__.jpg"
+  },
+  {
+    "sequence": 23,
+    "name": "Wayne Parnell \u2708",
+    "cost": 6,
+    "rating": 7.8,
+    "type": "al",
+    "sold": false,
+    "imageURL": "wayne_parnell__.jpg"
+  },
+  {
+    "sequence": 24,
+    "name": "Shakib Al Hasan \u2708",
+    "cost": 7,
+    "rating": 8.8,
+    "type": "al",
+    "sold": false,
+    "imageURL": "shakib_al_hasan__.jpg"
+  },
+  {
+    "sequence": 25,
+    "name": "Faf Du Plessis \u2708",
+    "cost": 9,
+    "rating": 9.3,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "faf_du_plessis__.jpg"
+  },
+  {
+    "sequence": 26,
+    "name": "Navdeep Saini",
+    "cost": 7,
+    "rating": 7.8,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "navdeep_saini.jpg"
+  },
+  {
+    "sequence": 27,
+    "name": "Brandon King \u2708",
+    "cost": 5,
+    "rating": 7.3,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "brandon_king__.jpg"
+  },
+  {
+    "sequence": 28,
+    "name": "Heinrich Klaasen \u2708",
+    "cost": 5,
+    "rating": 8.1,
+    "type": "wk",
+    "sold": false,
+    "imageURL": "heinrich_klaasen__.jpg"
+  },
+  {
+    "sequence": 29,
+    "name": "Vijay Shankar",
+    "cost": 5,
+    "rating": 8.1,
+    "type": "al",
+    "sold": false,
+    "imageURL": "vijay_shankar.jpg"
+  },
+  {
+    "sequence": 30,
+    "name": "Rahul Tripathi",
+    "cost": 8,
+    "rating": 8.0,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "rahul_tripathi.jpg"
+  },
+  {
+    "sequence": 31,
+    "name": "Peter Handscomb",
+    "cost": 6,
+    "rating": 7.2,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "peter_handscomb.jpg"
+  },
+  {
+    "sequence": 32,
+    "name": "Manan Vohra",
+    "cost": 6,
+    "rating": 7.5,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "manan_vohra.jpg"
+  },
+  {
+    "sequence": 33,
+    "name": "Rajat Patidar",
+    "cost": 7,
+    "rating": 7.3,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "rajat_patidar.jpg"
+  },
+  {
+    "sequence": 34,
+    "name": "Sachin Baby",
+    "cost": 5,
+    "rating": 6.7,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "sachin_baby.jpg"
+  },
+  {
+    "sequence": 35,
+    "name": "Rinku Singh",
+    "cost": 6,
+    "rating": 8.8,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "rinku_singh.jpg"
+  },
+  {
+    "sequence": 36,
+    "name": "Tom Curren \u2708",
+    "cost": 5,
+    "rating": 7.9,
+    "type": "al",
+    "sold": false,
+    "imageURL": "tom_curren__.jpg"
+  },
+  {
+    "sequence": 37,
+    "name": "Andrew Tye \u2708",
+    "cost": 7,
+    "rating": 8.3,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "andrew_tye__.jpg"
+  },
+  {
+    "sequence": 38,
+    "name": "M.S. Dhoni",
+    "cost": 10,
+    "rating": 9.6,
+    "type": "wk",
+    "sold": false,
+    "imageURL": "m_s__dhoni.jpg"
+  },
+  {
+    "sequence": 39,
+    "name": " Kuldeep Sen",
+    "cost": 5,
+    "rating": 7.0,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "_kuldeep_sen.jpg"
+  },
+  {
+    "sequence": 40,
+    "name": "Shai Hope \u2708",
+    "cost": 5,
+    "rating": 7.6,
+    "type": "wk",
+    "sold": false,
+    "imageURL": "shai_hope__.jpg"
+  },
+  {
+    "sequence": 41,
+    "name": "Alex Carey \u2708",
+    "cost": 6,
+    "rating": 7.9,
+    "type": "wk",
+    "sold": false,
+    "imageURL": "alex_carey__.jpg"
+  },
+  {
+    "sequence": 42,
+    "name": "AB de Villiers \u2708",
+    "cost": 10,
+    "rating": 9.5,
+    "type": "wk",
+    "sold": false,
+    "imageURL": "ab_de_villiers__.jpg"
+  },
+  {
+    "sequence": 43,
+    "name": "Marcus Stoinis \u2708",
+    "cost": 8,
+    "rating": 8.7,
+    "type": "al",
+    "sold": false,
+    "imageURL": "marcus_stoinis__.jpg"
+  },
+  {
+    "sequence": 44,
+    "name": "Yashasvi Jaiswal",
+    "cost": 7,
+    "rating": 8.8,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "yashasvi_jaiswal.jpg"
+  },
+  {
+    "sequence": 45,
+    "name": "Adil Rashid \u2708",
+    "cost": 8,
+    "rating": 8.9,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "adil_rashid__.jpg"
+  },
+  {
+    "sequence": 46,
+    "name": "Matthew Wade \u2708",
+    "cost": 8,
+    "rating": 8.0,
+    "type": "wk",
+    "sold": false,
+    "imageURL": "matthew_wade__.jpg"
+  },
+  {
+    "sequence": 47,
+    "name": "Mohammed Shami",
+    "cost": 9,
+    "rating": 9.1,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "mohammed_shami.jpg"
+  },
+  {
+    "sequence": 48,
+    "name": "Mitchell Santner \u2708",
+    "cost": 7,
+    "rating": 8.2,
+    "type": "al",
+    "sold": false,
+    "imageURL": "mitchell_santner__.jpg"
+  },
+  {
+    "sequence": 49,
+    "name": "Glenn Phillips \u2708",
+    "cost": 6,
+    "rating": 8.5,
+    "type": "wk",
+    "sold": false,
+    "imageURL": "glenn_phillips__.jpg"
+  },
+  {
+    "sequence": 50,
+    "name": "Basil Thampi",
+    "cost": 5,
+    "rating": 7.5,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "basil_thampi.jpg"
+  },
+  {
+    "sequence": 51,
+    "name": "Devdutt Padikkal",
+    "cost": 7,
+    "rating": 7.9,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "devdutt_padikkal.jpg"
+  },
+  {
+    "sequence": 52,
+    "name": "Nicolas Pooran \u2708",
+    "cost": 7,
+    "rating": 8.4,
+    "type": "wk",
+    "sold": false,
+    "imageURL": "nicolas_pooran__.jpg"
+  },
+  {
+    "sequence": 53,
+    "name": "Sandeep Sharma",
+    "cost": 8,
+    "rating": 8.2,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "sandeep_sharma.jpg"
+  },
+  {
+    "sequence": 54,
+    "name": "Dwayne Bravo \u2708",
+    "cost": 9,
+    "rating": 9.2,
+    "type": "al",
+    "sold": false,
+    "imageURL": "dwayne_bravo__.jpg"
+  },
+  {
+    "sequence": 55,
+    "name": "Maheesh Theekshana \u2708",
+    "cost": 6,
+    "rating": 7.6,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "maheesh_theekshana__.jpg"
+  },
+  {
+    "sequence": 56,
+    "name": "Bhuvneshwar Kumar",
+    "cost": 9,
+    "rating": 9.2,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "bhuvneshwar_kumar.jpg"
+  },
+  {
+    "sequence": 57,
+    "name": "Aaron Finch \u2708",
+    "cost": 8,
+    "rating": 8.4,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "aaron_finch__.jpg"
+  },
+  {
+    "sequence": 58,
+    "name": "Riyan Parag",
+    "cost": 5,
+    "rating": 7.5,
+    "type": "al",
+    "sold": false,
+    "imageURL": "riyan_parag.jpg"
+  },
+  {
+    "sequence": 59,
+    "name": "Mayank Agarwal",
+    "cost": 8,
+    "rating": 7.9,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "mayank_agarwal.jpg"
+  },
+  {
+    "sequence": 60,
+    "name": "Mohsin Khan",
+    "cost": 6,
+    "rating": 8.3,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "mohsin_khan.jpg"
+  },
+  {
+    "sequence": 61,
+    "name": "Umesh Yadav",
+    "cost": 5,
+    "rating": 8.4,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "umesh_yadav.jpg"
+  },
+  {
+    "sequence": 62,
+    "name": "Alex Hales \u2708",
+    "cost": 8,
+    "rating": 8.4,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "alex_hales__.jpg"
+  },
+  {
+    "sequence": 63,
+    "name": "Sam Curran \u2708",
+    "cost": 10,
+    "rating": 8.8,
+    "type": "al",
+    "sold": false,
+    "imageURL": "sam_curran__.jpg"
+  },
+  {
+    "sequence": 64,
+    "name": "Sean Abott \u2708",
+    "cost": 5,
+    "rating": 7.5,
+    "type": "al",
+    "sold": false,
+    "imageURL": "sean_abott__.jpg"
+  },
+  {
+    "sequence": 65,
+    "name": "James Neesham \u2708",
+    "cost": 7,
+    "rating": 8.4,
+    "type": "al",
+    "sold": false,
+    "imageURL": "james_neesham__.jpg"
+  },
+  {
+    "sequence": 66,
+    "name": "Karun Nair",
+    "cost": 5,
+    "rating": 7.0,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "karun_nair.jpg"
+  },
+  {
+    "sequence": 67,
+    "name": "K S Bharat",
+    "cost": 5,
+    "rating": 7.8,
+    "type": "wk",
+    "sold": false,
+    "imageURL": "k_s_bharat.jpg"
+  },
+  {
+    "sequence": 68,
+    "name": "Tim David \u2708",
+    "cost": 6,
+    "rating": 8.0,
+    "type": "al",
+    "sold": false,
+    "imageURL": "tim_david__.jpg"
+  },
+  {
+    "sequence": 69,
+    "name": "Shane Watson \u2708",
+    "cost": 8,
+    "rating": 8.4,
+    "type": "al",
+    "sold": false,
+    "imageURL": "shane_watson__.jpg"
+  },
+  {
+    "sequence": 70,
+    "name": "Najibullah Zadran \u2708",
+    "cost": 6,
+    "rating": 7.4,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "najibullah_zadran__.jpg"
+  },
+  {
+    "sequence": 71,
+    "name": "Ravindra Jadeja",
+    "cost": 10,
+    "rating": 9.5,
+    "type": "al",
+    "sold": false,
+    "imageURL": "ravindra_jadeja.jpg"
+  },
+  {
+    "sequence": 72,
+    "name": "Travis Head \u2708",
+    "cost": 7,
+    "rating": 8.8,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "travis_head__.jpg"
+  },
+  {
+    "sequence": 73,
+    "name": "Prithvi Shaw",
+    "cost": 7,
+    "rating": 7.5,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "prithvi_shaw.jpg"
+  },
+  {
+    "sequence": 74,
+    "name": "Devon Conway \u2708",
+    "cost": 8,
+    "rating": 8.5,
+    "type": "wk",
+    "sold": false,
+    "imageURL": "devon_conway__.jpg"
+  },
+  {
+    "sequence": 75,
+    "name": "Suresh Raina",
+    "cost": 9,
+    "rating": 8.7,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "suresh_raina.jpg"
+  },
+  {
+    "sequence": 76,
+    "name": "David Miller \u2708",
+    "cost": 9,
+    "rating": 8.8,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "david_miller__.jpg"
+  },
+  {
+    "sequence": 77,
+    "name": "Umran Malik",
+    "cost": 8,
+    "rating": 8.3,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "umran_malik.jpg"
+  },
+  {
+    "sequence": 78,
+    "name": "Rachin Ravindra \u2708",
+    "cost": 8,
+    "rating": 8.8,
+    "type": "al",
+    "sold": false,
+    "imageURL": "rachin_ravindra__.jpg"
+  },
+  {
+    "sequence": 79,
+    "name": "Jos Buttler \u2708",
+    "cost": 10,
+    "rating": 9.4,
+    "type": "wk",
+    "sold": false,
+    "imageURL": "jos_buttler__.jpg"
+  },
+  {
+    "sequence": 80,
+    "name": "Cameron Green \u2708",
+    "cost": 8,
+    "rating": 9.0,
+    "type": "al",
+    "sold": false,
+    "imageURL": "cameron_green__.jpg"
+  },
+  {
+    "sequence": 81,
+    "name": "Glenn Maxwell \u2708",
+    "cost": 9,
+    "rating": 9.4,
+    "type": "al",
+    "sold": false,
+    "imageURL": "glenn_maxwell__.jpg"
+  },
+  {
+    "sequence": 82,
+    "name": "Liam Livingstone \u2708",
+    "cost": 9,
+    "rating": 9.1,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "liam_livingstone__.jpg"
+  },
+  {
+    "sequence": 83,
+    "name": "Shubman Gill",
+    "cost": 8,
+    "rating": 9.0,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "shubman_gill.jpg"
+  },
+  {
+    "sequence": 84,
+    "name": "Obed Mccoy \u2708",
+    "cost": 5,
+    "rating": 7.0,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "obed_mccoy__.jpg"
+  },
+  {
+    "sequence": 85,
+    "name": "Matheesa Pathirana \u2708",
+    "cost": 6,
+    "rating": 7.7,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "matheesa_pathirana__.jpg"
+  },
+  {
+    "sequence": 86,
+    "name": "Mukesh Choudhary",
+    "cost": 7,
+    "rating": 8.3,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "mukesh_choudhary.jpg"
+  },
+  {
+    "sequence": 87,
+    "name": "David Warner \u2708",
+    "cost": 9,
+    "rating": 9.4,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "david_warner__.jpg"
+  },
+  {
+    "sequence": 88,
+    "name": "Suryakumar Yadav",
+    "cost": 9,
+    "rating": 9.2,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "suryakumar_yadav.jpg"
+  },
+  {
+    "sequence": 89,
+    "name": "Mayank Markande",
+    "cost": 6,
+    "rating": 7.7,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "mayank_markande.jpg"
+  },
+  {
+    "sequence": 90,
+    "name": "Wriddhiman Saha",
+    "cost": 5,
+    "rating": 7.9,
+    "type": "wk",
+    "sold": false,
+    "imageURL": "wriddhiman_saha.jpg"
+  },
+  {
+    "sequence": 91,
+    "name": "Lahiru Kumara \u2708",
+    "cost": 6,
+    "rating": 7.5,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "lahiru_kumara__.jpg"
+  },
+  {
+    "sequence": 92,
+    "name": "Moeen Ali \u2708",
+    "cost": 8,
+    "rating": 8.8,
+    "type": "al",
+    "sold": false,
+    "imageURL": "moeen_ali__.jpg"
+  },
+  {
+    "sequence": 93,
+    "name": "Sherfane Rutherford \u2708",
+    "cost": 5,
+    "rating": 7.0,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "sherfane_rutherford__.jpg"
+  },
+  {
+    "sequence": 94,
+    "name": "Shahrukh Khan",
+    "cost": 7,
+    "rating": 7.3,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "shahrukh_khan.jpg"
+  },
+  {
+    "sequence": 95,
+    "name": "Krunal Pandya",
+    "cost": 8,
+    "rating": 8.8,
+    "type": "al",
+    "sold": false,
+    "imageURL": "krunal_pandya.jpg"
+  },
+  {
+    "sequence": 96,
+    "name": "Mark Wood \u2708",
+    "cost": 7,
+    "rating": 8.0,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "mark_wood__.jpg"
+  },
+  {
+    "sequence": 97,
+    "name": "Pathum Nissaanka \u2708",
+    "cost": 5,
+    "rating": 7.5,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "pathum_nissaanka__.jpg"
+  },
+  {
+    "sequence": 98,
+    "name": "Andre Russell \u2708",
+    "cost": 9,
+    "rating": 9.0,
+    "type": "al",
+    "sold": false,
+    "imageURL": "andre_russell__.jpg"
+  },
+  {
+    "sequence": 99,
+    "name": "Rahul Tewatia",
+    "cost": 8,
+    "rating": 8.4,
+    "type": "al",
+    "sold": false,
+    "imageURL": "rahul_tewatia.jpg"
+  },
+  {
+    "sequence": 100,
+    "name": "Odean Smith \u2708",
+    "cost": 6,
+    "rating": 8.2,
+    "type": "al",
+    "sold": false,
+    "imageURL": "odean_smith__.jpg"
+  },
+  {
+    "sequence": 101,
+    "name": "Kushal Mendis \u2708",
+    "cost": 5,
+    "rating": 8.2,
+    "type": "wk",
+    "sold": false,
+    "imageURL": "kushal_mendis__.jpg"
+  },
+  {
+    "sequence": 102,
+    "name": "Chris Jordan \u2708",
+    "cost": 7,
+    "rating": 8.0,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "chris_jordan__.jpg"
+  },
+  {
+    "sequence": 103,
+    "name": "Deepak Chahar",
+    "cost": 9,
+    "rating": 9.2,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "deepak_chahar.jpg"
+  },
+  {
+    "sequence": 104,
+    "name": "Marco Jansen  \u2708",
+    "cost": 7,
+    "rating": 7.8,
+    "type": "al",
+    "sold": false,
+    "imageURL": "marco_jansen___.jpg"
+  },
+  {
+    "sequence": 105,
+    "name": "Shreyas Gopal",
+    "cost": 7,
+    "rating": 7.9,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "shreyas_gopal.jpg"
+  },
+  {
+    "sequence": 106,
+    "name": "Shardul Thakur",
+    "cost": 8,
+    "rating": 8.2,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "shardul_thakur.jpg"
+  },
+  {
+    "sequence": 107,
+    "name": "Jagadeesha Suchith",
+    "cost": 5,
+    "rating": 7.3,
+    "type": "al",
+    "sold": false,
+    "imageURL": "jagadeesha_suchith.jpg"
+  },
+  {
+    "sequence": 108,
+    "name": "Steve Smith \u2708",
+    "cost": 9,
+    "rating": 8.3,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "steve_smith__.jpg"
+  },
+  {
+    "sequence": 109,
+    "name": "Jhye Richardson \u2708",
+    "cost": 7,
+    "rating": 8.2,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "jhye_richardson__.jpg"
+  },
+  {
+    "sequence": 110,
+    "name": "Jofra Archer \u2708",
+    "cost": 8,
+    "rating": 8.7,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "jofra_archer__.jpg"
+  },
+  {
+    "sequence": 111,
+    "name": "Johnny Bairstow \u2708",
+    "cost": 8,
+    "rating": 8.8,
+    "type": "wk",
+    "sold": false,
+    "imageURL": "johnny_bairstow__.jpg"
+  },
+  {
+    "sequence": 112,
+    "name": "Arshdeep Singh",
+    "cost": 7,
+    "rating": 8.3,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "arshdeep_singh.jpg"
+  },
+  {
+    "sequence": 113,
+    "name": "Kamlesh Nagarkoti",
+    "cost": 5,
+    "rating": 8.1,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "kamlesh_nagarkoti.jpg"
+  },
+  {
+    "sequence": 114,
+    "name": "Rohit Sharma",
+    "cost": 10,
+    "rating": 9.5,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "rohit_sharma.jpg"
+  },
+  {
+    "sequence": 115,
+    "name": "Ishant Sharma",
+    "cost": 6,
+    "rating": 8.2,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "ishant_sharma.jpg"
+  },
+  {
+    "sequence": 116,
+    "name": "Siddharth Kaul",
+    "cost": 5,
+    "rating": 8.0,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "siddharth_kaul.jpg"
+  },
+  {
+    "sequence": 117,
+    "name": "Sanju Samson",
+    "cost": 8,
+    "rating": 8.7,
+    "type": "wk",
+    "sold": false,
+    "imageURL": "sanju_samson.jpg"
+  },
+  {
+    "sequence": 118,
+    "name": "Jasprit Bumrah",
+    "cost": 10,
+    "rating": 9.5,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "jasprit_bumrah.jpg"
+  },
+  {
+    "sequence": 119,
+    "name": "Will Jacks \u2708",
+    "cost": 6,
+    "rating": 7.5,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "will_jacks__.jpg"
+  },
+  {
+    "sequence": 120,
+    "name": "Rashid Khan \u2708",
+    "cost": 10,
+    "rating": 9.3,
+    "type": "al",
+    "sold": false,
+    "imageURL": "rashid_khan__.jpg"
+  },
+  {
+    "sequence": 121,
+    "name": "Rovman Powell \u2708",
+    "cost": 6,
+    "rating": 8.0,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "rovman_powell__.jpg"
+  },
+  {
+    "sequence": 122,
+    "name": "Wanindu Hasaranga \u2708",
+    "cost": 7,
+    "rating": 7.8,
+    "type": "al",
+    "sold": false,
+    "imageURL": "wanindu_hasaranga__.jpg"
+  },
+  {
+    "sequence": 123,
+    "name": "Mohammed Siraj",
+    "cost": 9,
+    "rating": 9.0,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "mohammed_siraj.jpg"
+  },
+  {
+    "sequence": 124,
+    "name": "Sai Sudharsan",
+    "cost": 5,
+    "rating": 7.7,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "sai_sudharsan.jpg"
+  },
+  {
+    "sequence": 125,
+    "name": "Temba Bavuma \u2708",
+    "cost": 6,
+    "rating": 7.5,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "temba_bavuma__.jpg"
+  },
+  {
+    "sequence": 126,
+    "name": "Josh Hazlewood \u2708",
+    "cost": 9,
+    "rating": 9.1,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "josh_hazlewood__.jpg"
+  },
+  {
+    "sequence": 127,
+    "name": "Tabraiz Shamsi \u2708",
+    "cost": 8,
+    "rating": 8.8,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "tabraiz_shamsi__.jpg"
+  },
+  {
+    "sequence": 128,
+    "name": "Krishnappa Gowtham",
+    "cost": 5,
+    "rating": 7.8,
+    "type": "al",
+    "sold": false,
+    "imageURL": "krishnappa_gowtham.jpg"
+  },
+  {
+    "sequence": 129,
+    "name": "Jason Holder \u2708",
+    "cost": 6,
+    "rating": 8.5,
+    "type": "al",
+    "sold": false,
+    "imageURL": "jason_holder__.jpg"
+  },
+  {
+    "sequence": 130,
+    "name": "Riley Meredith \u2708",
+    "cost": 6,
+    "rating": 7.5,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "riley_meredith__.jpg"
+  },
+  {
+    "sequence": 131,
+    "name": "Shreyas Iyer",
+    "cost": 8,
+    "rating": 8.9,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "shreyas_iyer.jpg"
+  },
+  {
+    "sequence": 132,
+    "name": "Amit Mishra",
+    "cost": 7,
+    "rating": 8.0,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "amit_mishra.jpg"
+  },
+  {
+    "sequence": 133,
+    "name": "Phil Salt \u2708",
+    "cost": 7,
+    "rating": 8.2,
+    "type": "wk",
+    "sold": false,
+    "imageURL": "phil_salt__.jpg"
+  },
+  {
+    "sequence": 134,
+    "name": "Kane Williamson \u2708",
+    "cost": 9,
+    "rating": 8.9,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "kane_williamson__.jpg"
+  },
+  {
+    "sequence": 135,
+    "name": "Tilak Varma",
+    "cost": 7,
+    "rating": 8.5,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "tilak_varma.jpg"
+  },
+  {
+    "sequence": 136,
+    "name": "Manish Pandey",
+    "cost": 7,
+    "rating": 7.5,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "manish_pandey.jpg"
+  },
+  {
+    "sequence": 137,
+    "name": "Prasidh Krishna",
+    "cost": 7,
+    "rating": 8.3,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "prasidh_krishna.jpg"
+  },
+  {
+    "sequence": 138,
+    "name": "Nitish Rana",
+    "cost": 7,
+    "rating": 8.1,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "nitish_rana.jpg"
+  },
+  {
+    "sequence": 139,
+    "name": "Mujeeb Rahman \u2708",
+    "cost": 7,
+    "rating": 8.5,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "mujeeb_rahman__.jpg"
+  },
+  {
+    "sequence": 140,
+    "name": "Rilee Rossouw \u2708",
+    "cost": 8,
+    "rating": 8.5,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "rilee_rossouw__.jpg"
+  },
+  {
+    "sequence": 141,
+    "name": "Usman Khawaja \u2708",
+    "cost": 6,
+    "rating": 7.9,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "usman_khawaja__.jpg"
+  },
+  {
+    "sequence": 142,
+    "name": "Chris Lynn \u2708",
+    "cost": 9,
+    "rating": 8.7,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "chris_lynn__.jpg"
+  },
+  {
+    "sequence": 143,
+    "name": "Ambati Rayudu",
+    "cost": 6,
+    "rating": 8.5,
+    "type": "wk",
+    "sold": false,
+    "imageURL": "ambati_rayudu.jpg"
+  },
+  {
+    "sequence": 144,
+    "name": "Sarfaraz Khan",
+    "cost": 5,
+    "rating": 7.8,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "sarfaraz_khan.jpg"
+  },
+  {
+    "sequence": 145,
+    "name": "Mitchell Starc \u2708",
+    "cost": 9,
+    "rating": 9.4,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "mitchell_starc__.jpg"
+  },
+  {
+    "sequence": 146,
+    "name": "Daryl Mitchell\u2708",
+    "cost": 7,
+    "rating": 8.0,
+    "type": "al",
+    "sold": false,
+    "imageURL": "daryl_mitchell_.jpg"
+  },
+  {
+    "sequence": 147,
+    "name": "Harry Brook \u2708",
+    "cost": 7,
+    "rating": 8.4,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "harry_brook__.jpg"
+  },
+  {
+    "sequence": 148,
+    "name": "Avesh Khan",
+    "cost": 6,
+    "rating": 7.9,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "avesh_khan.jpg"
+  },
+  {
+    "sequence": 149,
+    "name": "Eoin Morgan \u2708",
+    "cost": 8,
+    "rating": 8.2,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "eoin_morgan__.jpg"
+  },
+  {
+    "sequence": 150,
+    "name": "Deepak Hooda",
+    "cost": 6,
+    "rating": 8.1,
+    "type": "al",
+    "sold": false,
+    "imageURL": "deepak_hooda.jpg"
+  },
+  {
+    "sequence": 151,
+    "name": "Carlos Brathwaite \u2708",
+    "cost": 5,
+    "rating": 7.5,
+    "type": "al",
+    "sold": false,
+    "imageURL": "calos_brathwaite__.jpg"
+  },
+  {
+    "sequence": 152,
+    "name": "Bhanuka Rajapaksa \u2708",
+    "cost": 8,
+    "rating": 7.8,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "bhanuka_rajapaksa__.jpg"
+  },
+  {
+    "sequence": 153,
+    "name": "Dwaine Pretorius \u2708",
+    "cost": 7,
+    "rating": 7.8,
+    "type": "al",
+    "sold": false,
+    "imageURL": "dwaine_pretorius__.jpg"
+  },
+  {
+    "sequence": 154,
+    "name": "Aiden Markram",
+    "cost": 7,
+    "rating": 8.3,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "aiden_markram.jpg"
+  },
+  {
+    "sequence": 155,
+    "name": "Chris Gayle \u2708",
+    "cost": 10,
+    "rating": 9.2,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "chris_gayle__.jpg"
+  },
+  {
+    "sequence": 156,
+    "name": " T. Natarajan",
+    "cost": 9,
+    "rating": 8.8,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "_t__natarajan.jpg"
+  },
+  {
+    "sequence": 157,
+    "name": "Hardik Pandya",
+    "cost": 10,
+    "rating": 9.3,
+    "type": "al",
+    "sold": false,
+    "imageURL": "hardik_pandya.jpg"
+  },
+  {
+    "sequence": 158,
+    "name": "Mitchell Marsh \u2708",
+    "cost": 9,
+    "rating": 9.2,
+    "type": "al",
+    "sold": false,
+    "imageURL": "mitchell_marsh__.jpg"
+  },
+  {
+    "sequence": 159,
+    "name": "Yuzvendra Chahal",
+    "cost": 9,
+    "rating": 9.3,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "yuzvendra_chahal.jpg"
+  },
+  {
+    "sequence": 160,
+    "name": "Lungi Ngidi \u2708",
+    "cost": 7,
+    "rating": 8.1,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "lungi_ngidi__.jpg"
+  },
+  {
+    "sequence": 161,
+    "name": "Billy Stanlake \u2708",
+    "cost": 5,
+    "rating": 7.0,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "billy_stanlake__.jpg"
+  },
+  {
+    "sequence": 162,
+    "name": "Robin Uthappa",
+    "cost": 6,
+    "rating": 8.3,
+    "type": "wk",
+    "sold": false,
+    "imageURL": "robin_uthappa.jpg"
+  },
+  {
+    "sequence": 163,
+    "name": "Ruturaj  Gaikwad",
+    "cost": 7,
+    "rating": 8.3,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "ruturaj__gaikwad.jpg"
+  },
+  {
+    "sequence": 164,
+    "name": "Reece Topley \u2708",
+    "cost": 6,
+    "rating": 7.5,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "reece_topley__.jpg"
+  },
+  {
+    "sequence": 165,
+    "name": "Mushfiqur Rahman \u2708",
+    "cost": 6,
+    "rating": 7.5,
+    "type": "wk",
+    "sold": false,
+    "imageURL": "mushfiqur_rahman__.jpg"
+  },
+  {
+    "sequence": 166,
+    "name": "Axar Patel",
+    "cost": 8,
+    "rating": 8.8,
+    "type": "al",
+    "sold": false,
+    "imageURL": "axar_patel.jpg"
+  },
+  {
+    "sequence": 167,
+    "name": "Alzarri Joseph \u2708",
+    "cost": 5,
+    "rating": 7.7,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "alzarri_joseph__.jpg"
+  },
+  {
+    "sequence": 168,
+    "name": "Sheldon Cottrel \u2708",
+    "cost": 7,
+    "rating": 8.0,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "sheldon_cottrel__.jpg"
+  },
+  {
+    "sequence": 169,
+    "name": "Murugan Ashwin",
+    "cost": 5,
+    "rating": 7.9,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "murugan_ashwin.jpg"
+  },
+  {
+    "sequence": 170,
+    "name": "Tim Seifert \u2708",
+    "cost": 5,
+    "rating": 8.0,
+    "type": "wk",
+    "sold": false,
+    "imageURL": "tim_seifert__.jpg"
+  },
+  {
+    "sequence": 171,
+    "name": "Piyush Chawla",
+    "cost": 7,
+    "rating": 8.0,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "piyush_chawla.jpg"
+  },
+  {
+    "sequence": 172,
+    "name": "Kagiso Rabada \u2708",
+    "cost": 9,
+    "rating": 9.3,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "kagiso_rabada__.jpg"
+  },
+  {
+    "sequence": 173,
+    "name": "Nathan Coulter-Nile \u2708",
+    "cost": 6,
+    "rating": 7.8,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "nathan_coulter_nile__.jpg"
+  },
+  {
+    "sequence": 174,
+    "name": "Shimron Hetmyer \u2708",
+    "cost": 9,
+    "rating": 8.9,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "shimron_hetmyer__.jpg"
+  },
+  {
+    "sequence": 175,
+    "name": "Taskin Ahmed \u2708",
+    "cost": 7,
+    "rating": 8.0,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "taskin_ahmed__.jpg"
+  },
+  {
+    "sequence": 176,
+    "name": "Ben Stokes \u2708",
+    "cost": 10,
+    "rating": 9.2,
+    "type": "al",
+    "sold": false,
+    "imageURL": "ben_stokes__.jpg"
+  },
+  {
+    "sequence": 177,
+    "name": "Ishan Kishan",
+    "cost": 7,
+    "rating": 8.6,
+    "type": "wk",
+    "sold": false,
+    "imageURL": "ishan_kishan.jpg"
+  },
+  {
+    "sequence": 178,
+    "name": "Jaydev Unadkat",
+    "cost": 6,
+    "rating": 7.9,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "jaydev_unadkat.jpg"
+  },
+  {
+    "sequence": 179,
+    "name": "Josh Inglis \u2708",
+    "cost": 5,
+    "rating": 7.8,
+    "type": "wk",
+    "sold": false,
+    "imageURL": "josh_inglis__.jpg"
+  },
+  {
+    "sequence": 180,
+    "name": "Ravichandran Ashwin",
+    "cost": 8,
+    "rating": 8.7,
+    "type": "al",
+    "sold": false,
+    "imageURL": "ravichandran_ashwin.jpg"
+  },
+  {
+    "sequence": 181,
+    "name": "Matt Henry \u2708",
+    "cost": 7,
+    "rating": 8.0,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "matt_henry__.jpg"
+  },
+  {
+    "sequence": 182,
+    "name": "Shivam Mavi",
+    "cost": 8,
+    "rating": 8.5,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "shivam_mavi.jpg"
+  },
+  {
+    "sequence": 183,
+    "name": "Daniel Sams \u2708",
+    "cost": 6,
+    "rating": 7.7,
+    "type": "al",
+    "sold": false,
+    "imageURL": "daniel_sams__.jpg"
+  },
+  {
+    "sequence": 184,
+    "name": "K L Rahul",
+    "cost": 9,
+    "rating": 9.1,
+    "type": "wk",
+    "sold": false,
+    "imageURL": "k_l_rahul.jpg"
+  },
+  {
+    "sequence": 185,
+    "name": "Naveen-ul Haq  \u2708",
+    "cost": 7,
+    "rating": 8.0,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "naveen_ul_haq___.jpg"
+  },
+  {
+    "sequence": 186,
+    "name": "Sikandar Raza \u2708",
+    "cost": 6,
+    "rating": 7.7,
+    "type": "al",
+    "sold": false,
+    "imageURL": "sikandar_raza__.jpg"
+  },
+  {
+    "sequence": 187,
+    "name": "Dawid Malan \u2708",
+    "cost": 8,
+    "rating": 8.5,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "dawid_malan__.jpg"
+  },
+  {
+    "sequence": 188,
+    "name": "Sam Billings \u2708",
+    "cost": 6,
+    "rating": 8.0,
+    "type": "wk",
+    "sold": false,
+    "imageURL": "sam_billings__.jpg"
+  },
+  {
+    "sequence": 189,
+    "name": "Kuldeep Yadav",
+    "cost": 8,
+    "rating": 9.0,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "kuldeep_yadav.jpg"
+  },
+  {
+    "sequence": 190,
+    "name": "Rassie Van Der Dussen \u2708",
+    "cost": 7,
+    "rating": 8.0,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "rassie_van_der_dussen__.jpg"
+  },
+  {
+    "sequence": 191,
+    "name": "Anrich Nortje \u2708",
+    "cost": 8,
+    "rating": 8.8,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "anrich_nortje__.jpg"
+  },
+  {
+    "sequence": 192,
+    "name": "Harshal Patel",
+    "cost": 7,
+    "rating": 8.1,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "harshal_patel.jpg"
+  },
+  {
+    "sequence": 193,
+    "name": "Mandeep Singh",
+    "cost": 6,
+    "rating": 7.4,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "mandeep_singh.jpg"
+  },
+  {
+    "sequence": 194,
+    "name": "Liton Das \u2708",
+    "cost": 5,
+    "rating": 8.1,
+    "type": "wk",
+    "sold": false,
+    "imageURL": "liton_das__.jpg"
+  },
+  {
+    "sequence": 195,
+    "name": "Dasun shanaka \u2708",
+    "cost": 6,
+    "rating": 7.8,
+    "type": "al",
+    "sold": false,
+    "imageURL": "dasun_shanaka__.jpg"
+  },
+  {
+    "sequence": 196,
+    "name": "Lockie Ferguson \u2708",
+    "cost": 9,
+    "rating": 9.0,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "lockie_ferguson__.jpg"
+  },
+  {
+    "sequence": 197,
+    "name": "Ajinkya Rahane",
+    "cost": 7,
+    "rating": 8.4,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "ajinkya_rahane.jpg"
+  },
+  {
+    "sequence": 198,
+    "name": "Mohammad Nabi \u2708",
+    "cost": 6,
+    "rating": 8.1,
+    "type": "al",
+    "sold": false,
+    "imageURL": "mohammad_nabi__.jpg"
+  },
+  {
+    "sequence": 199,
+    "name": "Adam Milne \u2708",
+    "cost": 6,
+    "rating": 7.8,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "adam_milne__.jpg"
+  },
+  {
+    "sequence": 200,
+    "name": "Henry Nicholls \u2708",
+    "cost": 5,
+    "rating": 7.1,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "henry_nicholls__.jpg"
+  },
+  {
+    "sequence": 201,
+    "name": "Kyle Jamieson \u2708",
+    "cost": 7,
+    "rating": 7.9,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "kyle_jamieson__.jpg"
+  },
+  {
+    "sequence": 202,
+    "name": "Quinton de Kock \u2708",
+    "cost": 8,
+    "rating": 8.9,
+    "type": "wk",
+    "sold": false,
+    "imageURL": "quinton_de_kock__.jpg"
+  },
+  {
+    "sequence": 203,
+    "name": "Dhawal Kulkarni",
+    "cost": 5,
+    "rating": 7.7,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "dhawal_kulkarni.jpg"
+  },
+  {
+    "sequence": 204,
+    "name": "Ramandeep Singh",
+    "cost": 5,
+    "rating": 7.0,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "ramandeep_singh.jpg"
+  },
+  {
+    "sequence": 205,
+    "name": "Mustafizur Rahman \u2708",
+    "cost": 6,
+    "rating": 7.8,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "mustafizur_rahman__.jpg"
+  },
+  {
+    "sequence": 206,
+    "name": "Rahul Chahar",
+    "cost": 7,
+    "rating": 8.2,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "rahul_chahar.jpg"
+  },
+  {
+    "sequence": 207,
+    "name": "Rishab Pant",
+    "cost": 9,
+    "rating": 9.0,
+    "type": "wk",
+    "sold": false,
+    "imageURL": "rishab_pant.jpg"
+  },
+  {
+    "sequence": 208,
+    "name": "Romario Shepherd \u2708",
+    "cost": 5,
+    "rating": 7.6,
+    "type": "al",
+    "sold": false,
+    "imageURL": "romario_shepherd__.jpg"
+  },
+  {
+    "sequence": 209,
+    "name": "Tom Latham \u2708",
+    "cost": 6,
+    "rating": 7.7,
+    "type": "wk",
+    "sold": false,
+    "imageURL": "tom_latham__.jpg"
+  },
+  {
+    "sequence": 210,
+    "name": "Joe Root \u2708",
+    "cost": 7,
+    "rating": 7.5,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "joe_root__.jpg"
+  },
+  {
+    "sequence": 211,
+    "name": "Shivam Dube",
+    "cost": 6,
+    "rating": 8.6,
+    "type": "al",
+    "sold": false,
+    "imageURL": "shivam_dube.jpg"
+  },
+  {
+    "sequence": 212,
+    "name": "Dewald Brevis \u2708",
+    "cost": 7,
+    "rating": 8.0,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "dewald_brevis__.jpg"
+  },
+  {
+    "sequence": 213,
+    "name": "Chris Woakes \u2708",
+    "cost": 7,
+    "rating": 8.8,
+    "type": "al",
+    "sold": false,
+    "imageURL": "chris_woakes__.jpg"
+  },
+  {
+    "sequence": 214,
+    "name": "Jason Roy \u2708",
+    "cost": 8,
+    "rating": 8.2,
+    "type": "bt",
+    "sold": false,
+    "imageURL": "jason_roy__.jpg"
+  },
+  {
+    "sequence": 215,
+    "name": "Pat Cummins \u2708",
+    "cost": 10,
+    "rating": 8.9,
+    "type": "al",
+    "sold": false,
+    "imageURL": "pat_cummins__.jpg"
+  },
+  {
+    "sequence": 216,
+    "name": "Tim Southee \u2708",
+    "cost": 7,
+    "rating": 8.3,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "tim_southee__.jpg"
+  },
+  {
+    "sequence": 217,
+    "name": "Varun Aaron",
+    "cost": 5,
+    "rating": 7.5,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "varun_aaron.jpg"
+  },
+  {
+    "sequence": 218,
+    "name": "David Wiese \u2708",
+    "cost": 5,
+    "rating": 7.5,
+    "type": "al",
+    "sold": false,
+    "imageURL": "david_wiese__.jpg"
+  },
+  {
+    "sequence": 219,
+    "name": "Parthiv Patel ",
+    "cost": 5,
+    "rating": 7.7,
+    "type": "wk",
+    "sold": false,
+    "imageURL": "parthiv_patel_.jpg"
+  },
+  {
+    "sequence": 220,
+    "name": "Keshav Maharaj \u2708",
+    "cost": 6,
+    "rating": 7.7,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "keshav_maharaj__.jpg"
+  },
+  {
+    "sequence": 221,
+    "name": "Game Over",
+    "cost": 0,
+    "rating": 0,
+    "type": "bl",
+    "sold": false,
+    "imageURL": "game_over.jpg"
+  }
+]

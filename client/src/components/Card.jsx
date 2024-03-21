@@ -119,7 +119,7 @@ export default function App() {
           </div>
         </div>
         <div className="flex space-x-4 mb-6 text-sm font-medium"></div>
-        <p className="text-xl text-blue-900">{player.rating} Points</p>
+        <p className="text-3xl text-blue-900">{player.rating} Points</p>
         <p className="text-xl text-blue-900">Base Price: {player.cost} </p>
         <div className="flex justify-between">
           {/* Prev Button */}
