@@ -28,6 +28,36 @@ export default function App() {
     }
   };
 
+  const handleNextUnsoldPlayer = () => {
+    let nextSeq = seq + 1; // Start from the next player
+    let foundUnsoldPlayer = false;
+  
+    // Loop through players starting from the next player
+    while (nextSeq <= players.length) {
+      const nextPlayer = players[nextSeq - 1];
+      if (!nextPlayer.sold) {
+        setSeq(nextSeq); // Update sequence to the next unsold player
+        foundUnsoldPlayer = true;
+        break;
+      }
+      nextSeq++;
+    }
+  
+    // If no unsold player is found after the current one, loop back to the first unsold player
+    if (!foundUnsoldPlayer) {
+      nextSeq = 1; // Start from the beginning
+      while (nextSeq < seq) {
+        const nextPlayer = players[nextSeq - 1];
+        if (!nextPlayer.sold) {
+          setSeq(nextSeq); // Update sequence to the first unsold player
+          break;
+        }
+        nextSeq++;
+      }
+    }
+  };
+  
+
   useEffect(() => {
     // You can add any additional logic here if needed
   }, [seq]);
@@ -108,7 +138,7 @@ export default function App() {
           </button>
           <button
             className="font-sans bg-blue-900 text-white rounded p-2 mx-auto mt-4 hover:bg-blue-700 text-md shadow-md"
-            onClick={handleFirstUnsoldPlayer} // Update seq for next player
+            onClick={handleNextUnsoldPlayer} // Update seq for next player
           >
             Unsold
           </button>
